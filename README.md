@@ -171,7 +171,7 @@ Power Query significantly reduces manual work, improves data quality, and provid
 ---
 # 📊 KPI Cards
 
-<img width="342" height="133" alt="KPIC" src="https://github.com/user-attachments/assets/f7881229-d55a-456a-8348-41f406b14ef8" />
+<img width="1365" height="604" alt="KPIC" src="https://github.com/user-attachments/assets/f7881229-d55a-456a-8348-41f406b14ef8" />
 
 The KPI Cards provide an immediate summary of the company's overall performance, allowing users to evaluate key business metrics without exploring the detailed charts.
 
