@@ -379,9 +379,7 @@ It displays the number (or percentage) of orders delivered within each shipping 
 
 # 🎛️ Interactive Dashboard (Slicers)
 
-<p align="center">
-<img src="images/slicers.png" width="400">
-</p>
+<img width="609" height="46" alt="SLICER" src="https://github.com/user-attachments/assets/41bd2a0a-1eea-4139-a847-ccff38d7195b" />
 
 The dashboard includes interactive slicers that allow users to explore the data dynamically without modifying the source dataset.
 
