@@ -7,8 +7,7 @@ Interactive Excel Dashboard built with Microsoft Excel, Power Query, Pivot Table
 </p>
 
 ---
-### Dashboard File
-My final dashboard is in [EXCEL PROJECT.xlsx](https://github.com/user-attachments/files/30393166/EXCEL.PROJECT.xlsx)
+
 ---
 # 📖 Project Overview
 
