@@ -9,6 +9,7 @@ Interactive Excel Dashboard built with Microsoft Excel, Power Query, Pivot Table
 ---
 ### Dashboard File
 My final dashboard is in [EXCEL PROJECT.xlsx](https://github.com/user-attachments/files/30393166/EXCEL.PROJECT.xlsx)
+---
 # 📖 Project Overview
 
 This project demonstrates how Microsoft Excel can be transformed into a complete Business Intelligence (BI) solution.
