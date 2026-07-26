@@ -30,9 +30,7 @@ The dashboard enables users to analyze:
 
 # 📷 Dashboard Preview
 
-<p align="center">
-<img src="images/dashboard.png" width="100%">
-</p>
+<img width="1239" height="601" alt="dashboard" src="https://github.com/user-attachments/assets/02d7a01f-4a05-4b8d-97cc-7f48142267b7" />
 
 The dashboard provides an interactive overview of furniture sales performance, allowing users to explore sales, profitability, customer segments, regional performance, and shipping operations through dynamic visualizations.
 
