@@ -227,9 +227,7 @@ Displays total monthly sales based on the **Month** field extracted from the Ord
 
 # 🗺️ Sales Distribution by State
 
-<p align="center">
-<img src="images/map.png" width="850">
-</p>
+<img width="346" height="225" alt="maps" src="https://github.com/user-attachments/assets/2d6c20f1-1bb2-4447-8cd6-c371b3c0915a" />
 
 This visualization provides a geographic overview of furniture sales across the United States.
 
@@ -260,9 +258,7 @@ The geographic visualization improves readability and provides an immediate unde
 
 # 🏙️ Top Selling Cities
 
-<p align="center">
-<img src="images/top_cities.png" width="750">
-</p>
+<img width="351" height="189" alt="TOPSCITY" src="https://github.com/user-attachments/assets/c7d44ea7-594d-4e7d-bff2-149e3c8961e6" />
 
 This chart ranks the cities generating the highest furniture sales.
 
