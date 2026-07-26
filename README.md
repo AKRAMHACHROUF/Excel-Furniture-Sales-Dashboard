@@ -140,9 +140,7 @@ The dashboard consists of the following analytical sections:
 
 # 🧹 Data Cleaning with Power Query
 
-<p align="center">
-<img src="images/power_query.png" width="900">
-</p>
+<img width="1365" height="604" alt="power qq" src="https://github.com/user-attachments/assets/34bd5886-b17f-4b43-993b-4111c181ae2e" />
 
 Power Query was used to import, clean, and prepare the raw dataset before building the dashboard.
 
