@@ -8,7 +8,6 @@ Interactive Excel Dashboard built with Microsoft Excel, Power Query, Pivot Table
 
 ---
 
----
 # 📖 Project Overview
 
 This project demonstrates how Microsoft Excel can be transformed into a complete Business Intelligence (BI) solution.
