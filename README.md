@@ -283,9 +283,7 @@ Cities are ranked in descending order based on total sales, making the highest-p
 ---
 # 📦 Sales by Category
 
-<p align="center">
-<img src="images/category.png" width="750">
-</p>
+<img width="314" height="145" alt="CATEGORYY" src="https://github.com/user-attachments/assets/8dd9b8d6-61aa-499e-929f-b0da5c9f2fde" />
 
 This chart compares the sales performance of each furniture category, helping users identify which categories contribute the most revenue.
 
@@ -318,9 +316,7 @@ The dashboard compares:
 
 # 🚚 Shipping Mode Distribution
 
-<p align="center">
-<img src="images/shipping_mode.png" width="500">
-</p>
+<img width="327" height="162" alt="mode" src="https://github.com/user-attachments/assets/a1fcddae-e240-4f76-82a8-b13ee5d00483" />
 
 This visualization analyzes how customers choose to receive their orders.
 
@@ -351,9 +347,7 @@ Displays the distribution of orders across:
 
 # ⏱️ Shipping Duration Analysis
 
-<p align="center">
-<img src="images/shipping_duration.png" width="700">
-</p>
+<img width="447" height="224" alt="duration" src="https://github.com/user-attachments/assets/eb24bf68-13fc-4041-91fc-d6bde5bd686e" />
 
 This chart evaluates shipping performance by measuring the number of days required to deliver customer orders.
 
@@ -435,9 +429,7 @@ The dashboard provides several important business insights:
 
 # 📷 Final Dashboard
 
-<p align="center">
-<img src="images/dashboard.png" width="100%">
-</p>
+<img width="1239" height="601" alt="dashboard" src="https://github.com/user-attachments/assets/4b62449b-976e-4510-8f93-108e7ee55e63" />
 
 ---
 
@@ -464,36 +456,10 @@ This project reflects my ability to build professional Excel dashboards that com
 
 ---
 
-# 📁 Project Structure
-
-```text
-Furniture-Sales-Dashboard/
-│
-├── README.md
-├── Excel Project.xlsx
-├── dataset/
-│   └── Furniture_Sales.csv
-│
-└── images/
-    ├── dashboard.gif
-    ├── dashboard.png
-    ├── power_query.png
-    ├── kpi_cards.png
-    ├── sales_trend.png
-    ├── map.png
-    ├── top_cities.png
-    ├── category.png
-    ├── shipping_mode.png
-    ├── shipping_duration.png
-    └── slicers.png
-```
-
----
-
 # 👨‍💻 Author
 
 **Akram Hachrouf**
 
-Data Analyst | Excel | Power Query | Data Visualization
+BI & Data Analyst | Excel | Power Query | Data Visualization
 
 If you found this project useful, feel free to ⭐ this repository.
