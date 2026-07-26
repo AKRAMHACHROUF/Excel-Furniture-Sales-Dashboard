@@ -101,7 +101,8 @@ Duration = Ship Date - Order Date
 ```
 
 ---
-
+### Dashboard File
+My final dashboard is in [EXCEL PROJECT.xlsx](https://github.com/user-attachments/files/30393166/EXCEL.PROJECT.xlsx)
 # 🛠 Excel Skills Used
 
 Throughout this project, the following Microsoft Excel features were used:
