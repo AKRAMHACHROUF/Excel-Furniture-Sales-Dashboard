@@ -171,9 +171,7 @@ Power Query significantly reduces manual work, improves data quality, and provid
 ---
 # 📊 KPI Cards
 
-<p align="center">
-<img src="images/kpi_cards.png" width="650">
-</p>
+<img width="342" height="133" alt="KPIC" src="https://github.com/user-attachments/assets/f7881229-d55a-456a-8348-41f406b14ef8" />
 
 The KPI Cards provide an immediate summary of the company's overall performance, allowing users to evaluate key business metrics without exploring the detailed charts.
 
@@ -202,9 +200,7 @@ Allows decision-makers to evaluate business performance instantly and quickly id
 
 # 📈 Monthly Sales Trend
 
-<p align="center">
-<img src="images/sales_trend.png" width="850">
-</p>
+<img width="446" height="223" alt="MOUNTH" src="https://github.com/user-attachments/assets/962f8712-6cf0-4012-976f-69ca7ff50d21" />
 
 The Monthly Sales Trend visualizes how sales evolve throughout the year, making it easier to detect seasonal patterns and performance changes.
 
