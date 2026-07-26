@@ -1,79 +1,65 @@
-# 📊 Furniture Sales Dashboard | Microsoft Excel
+# 📊 Furniture Sales Dashboard in Excel
 
-<img width="1233" height="601" alt="mapss" src="https://github.com/user-attachments/assets/b7395e44-89dd-4c5f-9d93-aead0f8d7bae" />
+<img width="1233" height="601" alt="mapss" src="https://github.com/user-attachments/assets/4e131bd2-9e61-40d8-88e3-2b6f5987dbdb" />
 
-# 📑 Table of Contents
-
-- Introduction
-- Executive Summary
-- Business Objectives
-- Business Questions
-- Dataset
-- Excel Skills Used
-- Data Cleaning
-- Dashboard Build
-- Dashboard Components
-- Interactive Filters
-- Dashboard Walkthrough
-- Key Insights
-- Future Improvements
-- Project Structure
-- Author
+<p align="center">
+Interactive Excel Dashboard built with Microsoft Excel, Power Query, Pivot Tables, Pivot Charts, KPI Cards, Map Charts, and Slicers to analyze furniture sales performance and transform raw data into actionable business insights.
+</p>
 
 ---
 
-# 📖 Introduction
+# 📖 Project Overview
 
-The **Furniture Sales Dashboard** is an interactive Business Intelligence project built entirely in **Microsoft Excel**.
+This project demonstrates how Microsoft Excel can be transformed into a complete Business Intelligence (BI) solution.
 
-The purpose of this project is to transform raw furniture sales data into meaningful business insights through interactive dashboards, KPI cards, charts, and slicers.
+Using Power Query, Pivot Tables, Pivot Charts, KPI Cards, Map Charts, and Interactive Slicers, this dashboard converts raw furniture sales data into meaningful visual insights that support business decision-making.
 
-The dashboard enables decision-makers to monitor business performance, analyze sales trends, evaluate profitability, and identify customer and regional sales patterns.
+The dashboard enables users to analyze:
+
+- 💰 Total Sales
+- 📈 Total Profit
+- 📦 Quantity Sold
+- 🏷 Product Categories
+- 🏙 Top Selling Cities
+- 🗺 Sales by State
+- 🚚 Shipping Modes
+- ⏱ Shipping Duration
+- 👥 Customer Segments
 
 ---
 
-# 📋 Executive Summary
+# 📷 Dashboard Preview
 
-This dashboard analyzes furniture sales transactions across the United States.
+<p align="center">
+<img src="images/dashboard.png" width="100%">
+</p>
 
-Using Power Query and Excel Dashboard techniques, raw transactional data was transformed into an interactive reporting solution that helps users answer important business questions regarding sales performance, shipping operations, customer segmentation, and geographical distribution.
-
----
-
-# 🎯 Business Objectives
-
-The dashboard was created to help answer questions such as:
-
-- What are the total sales?
-- What is the total profit?
-- How many products were sold?
-- Which months generate the highest sales?
-- Which product categories perform the best?
-- Which states generate the highest revenue?
-- Which cities contribute the most sales?
-- Which shipping method is used the most?
-- How long does shipping usually take?
+The dashboard provides an interactive overview of furniture sales performance, allowing users to explore sales, profitability, customer segments, regional performance, and shipping operations through dynamic visualizations.
 
 ---
 
 # ❓ Business Questions
 
-- How much revenue has been generated?
-- Which month achieved the highest sales?
-- Which state has the highest sales?
-- Which city generates the highest revenue?
-- Which category contributes the most sales?
-- Which shipping mode is preferred by customers?
+This dashboard was designed to answer important business questions, including:
+
+- What are the Total Sales?
+- What is the Total Profit?
+- How many products were sold?
+- Which month generated the highest sales?
+- Which states generated the most revenue?
+- Which cities contribute the highest sales?
+- Which furniture category performs the best?
+- Which shipping method is used most frequently?
 - What is the average shipping duration?
-- Which customer segment contributes the highest revenue?
+- How do customer segments influence sales performance?
 
 ---
 
-# 📂 Dataset
+# 📂 Dataset Information
 
-The dataset contains furniture sales transactions across multiple regions in the United States.
+The dataset contains furniture sales transactions collected across different states in the United States.
 
-### Dataset Columns
+Each transaction includes information about:
 
 - Order ID
 - Order Date
@@ -94,315 +80,424 @@ The dataset contains furniture sales transactions across multiple regions in the
 - Quantity
 - Profit
 
-### Custom Columns
+---
 
-The following calculated columns were created using Power Query.
+## Additional Columns Created
 
-| Column | Description |
-|---------|-------------|
-| Duration | Ship Date − Order Date |
-| Month | Extracted from Order Date |
+### 📅 Month
+
+Extracted from Order Date to support monthly sales analysis.
+
+```text
+Month = Date.MonthName([Order Date])
+```
+
+---
+
+### 🚚 Duration
+
+Calculated to measure the number of days between placing an order and shipping it.
+
+```text
+Duration = Ship Date - Order Date
+```
 
 ---
 
 # 🛠 Excel Skills Used
 
-This project demonstrates the following Excel skills:
+Throughout this project, the following Microsoft Excel features were used:
 
-- Microsoft Excel
 - Power Query
-- Data Cleaning
-- Data Transformation
 - Pivot Tables
 - Pivot Charts
 - KPI Cards
-- Interactive Dashboard
-- Map Charts
-- Doughnut Charts
-- Conditional Formatting
+- Line Chart
+- Horizontal Bar Charts
+- Doughnut Chart
+- Map Chart
 - Slicers
+- Conditional Formatting
+- Custom Number Formatting
+- Dashboard Design
+- Data Cleaning
+- Data Visualization
 
 ---
 
-# 🧹 Data Cleaning
+# 📊 Dashboard Components
 
-Power Query was used to clean and prepare the dataset before analysis.
+The dashboard consists of the following analytical sections:
 
-The following transformations were performed:
-
-- Imported CSV file
-- Changed data types
-- Removed unnecessary columns
-- Created Shipping Duration column
-- Extracted Month from Order Date
-- Loaded transformed data into Excel
-
----
-
-### 📷 Power Query Screenshot
-
-```text
-images/power_query.png
-```
+- 📊 KPI Cards
+- 📈 Monthly Sales Trend
+- 🗺 Sales Distribution by State
+- 🏙 Top Selling Cities
+- 📦 Sales by Category
+- 🚚 Shipping Mode Distribution
+- ⏱ Shipping Duration Analysis
+- 🎛 Interactive Filters (Slicers)
 
 ---
 
-# 📊 Dashboard Build
+# 🧹 Data Cleaning with Power Query
 
-The dashboard was designed to provide a complete overview of business performance through KPI cards and interactive visualizations.
+<p align="center">
+<img src="images/power_query.png" width="900">
+</p>
+
+Power Query was used to import, clean, and prepare the raw dataset before building the dashboard.
+
+### 🛠️ Excel Features
+
+Utilized Power Query to automate the ETL (Extract, Transform, Load) process and ensure the dataset was ready for analysis.
+
+### 🎨 Design Choice
+
+Created a structured workflow that enables the dashboard to refresh automatically whenever new data is imported.
+
+### 📊 Data Preparation
+
+The following transformations were applied:
+
+- Imported the CSV dataset.
+- Changed data types.
+- Renamed columns.
+- Created a Month column.
+- Created a Duration column.
+- Removed unnecessary columns.
+- Loaded the cleaned dataset into Excel.
+
+### 💡 Insights Gained
+
+Power Query significantly reduces manual work, improves data quality, and provides a repeatable workflow for future dashboard updates.
 
 ---
+# 📊 KPI Cards
 
-# 📌 KPI Cards
+<p align="center">
+<img src="images/kpi_cards.png" width="650">
+</p>
 
-The dashboard summarizes business performance using four key metrics.
+The KPI Cards provide an immediate summary of the company's overall performance, allowing users to evaluate key business metrics without exploring the detailed charts.
 
-### KPIs
+### 🛠️ Excel Features
 
-- Total Sales
-- Total Profit
-- Total Quantity
-- Year-over-Year Growth
+Built KPI Cards using Pivot Tables, linked cells, formulas, and custom formatting.
 
-### Purpose
+### 🎨 Design Choice
 
-Provide an instant overview of overall business performance.
+Positioned KPI Cards at the top of the dashboard to provide an instant overview of the most important business metrics.
 
-### 📷 Screenshot
+### 📊 Data Representation
 
-```text
-images/kpi_cards.png
-```
+The dashboard displays:
+
+- 💰 Total Sales
+- 📈 Total Profit
+- 📦 Total Quantity Sold
+- 📊 Year-over-Year (YoY) Growth
+
+### 💡 Insights Gained
+
+Allows decision-makers to evaluate business performance instantly and quickly identify whether overall performance is improving or declining.
 
 ---
 
 # 📈 Monthly Sales Trend
 
-### Chart Type
+<p align="center">
+<img src="images/sales_trend.png" width="850">
+</p>
 
-Line Chart
+The Monthly Sales Trend visualizes how sales evolve throughout the year, making it easier to detect seasonal patterns and performance changes.
 
-### Purpose
+### 🛠️ Excel Features
 
-Analyze monthly sales performance throughout the year.
+Utilized a Line Chart connected to Pivot Tables.
 
-### Business Insight
+### 🎨 Design Choice
 
-Helps identify peak and low sales periods.
+A line chart was selected because it effectively highlights trends and changes over time.
 
-### 📷 Screenshot
+### 📊 Data Representation
 
-```text
-images/sales_trend.png
-```
+Displays total monthly sales based on the **Month** field extracted from the Order Date.
 
----
+### 💡 Insights Gained
 
-# 🗺 Sales Distribution by State
-
-### Chart Type
-
-Excel Map Chart
-
-### Purpose
-
-Visualize geographical sales distribution.
-
-### Business Insight
-
-Identify the highest-performing states.
-
-### 📷 Screenshot
-
-```text
-images/map.png
-```
+- Identifies peak sales months.
+- Detects low-performing periods.
+- Reveals seasonal demand patterns.
+- Supports sales forecasting.
 
 ---
 
-# 🏙 Top Selling Cities
+# 🗺️ Sales Distribution by State
 
-### Chart Type
+<p align="center">
+<img src="images/map.png" width="850">
+</p>
 
-Horizontal Bar Chart
+This visualization provides a geographic overview of furniture sales across the United States.
 
-### Purpose
+### 🛠️ Excel Features
 
-Compare sales among cities.
+Utilized Excel's Map Chart feature to visualize sales across U.S. states.
 
-### Business Insight
+### 🎨 Design Choice
 
-Highlights the cities generating the highest revenue.
+Applied a color-coded map to visually differentiate sales performance across geographic regions.
 
-### 📷 Screenshot
+### 📊 Data Representation
 
-```text
-images/top_cities.png
-```
+Displays total sales for each state included in the dataset.
+
+### 👁️ Visual Enhancement
+
+The geographic visualization improves readability and provides an immediate understanding of regional sales performance through intuitive color coding.
+
+### 💡 Insights Gained
+
+- Highlights the highest-performing states.
+- Identifies regions with lower sales.
+- Supports regional sales analysis.
+- Helps management prioritize business expansion opportunities.
 
 ---
 
+# 🏙️ Top Selling Cities
+
+<p align="center">
+<img src="images/top_cities.png" width="750">
+</p>
+
+This chart ranks the cities generating the highest furniture sales.
+
+### 🛠️ Excel Features
+
+Utilized a Horizontal Bar Chart connected to Pivot Tables.
+
+### 🎨 Design Choice
+
+A horizontal bar chart was selected because it improves readability when comparing multiple city names.
+
+### 📉 Data Organization
+
+Cities are ranked in descending order based on total sales, making the highest-performing markets immediately visible.
+
+### 💡 Insights Gained
+
+- Identifies the company's strongest markets.
+- Highlights cities contributing the largest share of revenue.
+- Helps support regional marketing and sales strategies.
+
+---
 # 📦 Sales by Category
 
-### Chart Type
+<p align="center">
+<img src="images/category.png" width="750">
+</p>
 
-Horizontal Bar Chart
+This chart compares the sales performance of each furniture category, helping users identify which categories contribute the most revenue.
 
-### Purpose
+### 🛠️ Excel Features
 
-Compare sales across furniture categories.
+Utilized a Horizontal Bar Chart connected to Pivot Tables.
 
-### Categories
+### 🎨 Design Choice
+
+A horizontal bar chart was chosen to simplify comparisons between product categories.
+
+### 📉 Data Organization
+
+Categories are sorted in descending order based on total sales.
+
+The dashboard compares:
 
 - Chairs
 - Tables
-- Furnishings
 - Bookcases
+- Furnishings
 
-### Business Insight
+### 💡 Insights Gained
 
-Shows which category contributes the highest revenue.
-
-### 📷 Screenshot
-
-```text
-images/category.png
-```
+- Identifies the best-performing product categories.
+- Supports inventory and purchasing decisions.
+- Helps prioritize high-revenue product lines.
 
 ---
 
 # 🚚 Shipping Mode Distribution
 
-### Chart Type
+<p align="center">
+<img src="images/shipping_mode.png" width="500">
+</p>
 
-Doughnut Chart
+This visualization analyzes how customers choose to receive their orders.
 
-### Purpose
+### 🛠️ Excel Features
 
-Analyze customer shipping preferences.
+Utilized Excel's Doughnut Chart feature connected to Pivot Tables.
 
-### Shipping Modes
+### 🎨 Design Choice
 
-- First Class
-- Second Class
+A doughnut chart was selected because it clearly displays the percentage share of each shipping method.
+
+### 📊 Data Representation
+
+Displays the distribution of orders across:
+
 - Standard Class
+- Second Class
+- First Class
 - Same Day
 
-### Business Insight
+### 💡 Insights Gained
 
-Shows the most commonly used shipping method.
-
-### 📷 Screenshot
-
-```text
-images/shipping_mode.png
-```
+- Reveals customer shipping preferences.
+- Identifies the most frequently used shipping method.
+- Supports logistics and shipping optimization.
 
 ---
 
-# ⏱ Shipping Duration Analysis
+# ⏱️ Shipping Duration Analysis
 
-### Chart Type
+<p align="center">
+<img src="images/shipping_duration.png" width="700">
+</p>
 
-Column Chart
+This chart evaluates shipping performance by measuring the number of days required to deliver customer orders.
 
-### Purpose
+### 🛠️ Excel Features
 
-Analyze the number of shipping days required for customer orders.
+Utilized a Column Chart based on the calculated **Duration** field.
 
-### Business Insight
+### 🎨 Design Choice
 
-Evaluate shipping efficiency.
+A column chart was selected to compare delivery durations clearly.
 
-### 📷 Screenshot
+### 📊 Data Representation
+
+The analysis is based on:
 
 ```text
-images/shipping_duration.png
+Duration = Ship Date - Order Date
 ```
+
+It displays the number (or percentage) of orders delivered within each shipping duration.
+
+### 💡 Insights Gained
+
+- Evaluates shipping efficiency.
+- Identifies the most common delivery time.
+- Helps monitor logistics performance.
 
 ---
 
-# 🎛 Interactive Filters
+# 🎛️ Interactive Dashboard (Slicers)
 
-The dashboard includes interactive slicers.
+<p align="center">
+<img src="images/slicers.png" width="400">
+</p>
 
-### Available Filters
+The dashboard includes interactive slicers that allow users to explore the data dynamically without modifying the source dataset.
 
-- Region
-- Customer Segment
+### 🛠️ Excel Features
 
-Users can dynamically filter all charts and KPI cards.
+Implemented Excel Slicers connected to all Pivot Tables and Pivot Charts.
 
-### 📷 Screenshot
+### 🎨 Design Choice
 
-```text
-images/slicers.png
-```
+Placed slicers at the top of the dashboard for quick and intuitive filtering.
 
----
+### 🔒 Enhanced Dashboard Interaction
 
-# 🚶 Dashboard Walkthrough
+Users can instantly filter the entire dashboard by:
 
-When a user selects a specific Region or Customer Segment, the dashboard automatically updates:
+- 🌎 Region
+- 👥 Customer Segment
 
-- KPI Cards
-- Sales Trend
-- State Map
-- Sales by Category
-- Top Cities
-- Shipping Analysis
+This interaction:
 
-This enables interactive exploration without modifying the source data.
+- 🎯 Updates every visualization automatically.
+- 🚫 Eliminates manual filtering.
+- 👥 Improves dashboard usability.
+- ⚡ Makes business analysis faster and more interactive.
+
+### 💡 Insights Gained
+
+Allows users to compare business performance across different regions and customer segments in real time.
 
 ---
 
 # 💡 Key Insights
 
-The dashboard helps decision-makers quickly identify:
+The dashboard provides several important business insights:
 
-- Overall business performance
-- Monthly sales trends
-- Best-performing states
-- Highest-selling cities
-- Best-performing product categories
-- Customer shipping preferences
-- Shipping efficiency
-- Regional sales performance
+- 📈 Sales performance changes throughout the year, revealing seasonal demand patterns.
+- 🗺 Certain states generate significantly higher revenue than others.
+- 🏙 A small number of cities contribute a large portion of total sales.
+- 📦 Some furniture categories consistently outperform others.
+- 🚚 Standard Class is the most commonly used shipping method.
+- ⏱ Most orders are delivered within a relatively short shipping duration.
+- 👥 Customer segments exhibit different purchasing behaviors that can be analyzed through interactive filtering.
 
 ---
 
-# 🚀 Future Improvements
+# 📷 Final Dashboard
 
-Future versions of the dashboard may include:
+<p align="center">
+<img src="images/dashboard.png" width="100%">
+</p>
 
-- Customer Analysis Dashboard
-- Product Performance Dashboard
-- Profit Margin KPI
-- Dynamic Timeline
-- Power BI Version
-- SQL Integration
+---
+
+# 🎯 Conclusion
+
+This project demonstrates how Microsoft Excel can be used as a powerful Business Intelligence (BI) tool to transform raw sales data into meaningful business insights.
+
+By combining Power Query, Pivot Tables, Pivot Charts, KPI Cards, Map Charts, and Interactive Slicers, the dashboard enables users to explore sales performance, identify trends, and support data-driven decision-making.
+
+## Skills Demonstrated
+
+- ✅ Data Cleaning
+- ✅ Data Transformation
+- ✅ Power Query
+- ✅ Pivot Tables
+- ✅ Pivot Charts
+- ✅ Dashboard Design
+- ✅ KPI Reporting
+- ✅ Interactive Dashboards
+- ✅ Business Analysis
+- ✅ Data Visualization
+
+This project reflects my ability to build professional Excel dashboards that combine data preparation, analysis, visualization, and storytelling into a single interactive reporting solution.
 
 ---
 
 # 📁 Project Structure
 
-```
-Furniture-Sales-Dashboard
+```text
+Furniture-Sales-Dashboard/
 │
-├── Furniture_Sales_Dashboard.xlsx
 ├── README.md
+├── Excel Project.xlsx
+├── dataset/
+│   └── Furniture_Sales.csv
 │
-├── images
-│   ├── dashboard.png
-│   ├── power_query.png
-│   ├── kpi_cards.png
-│   ├── sales_trend.png
-│   ├── map.png
-│   ├── top_cities.png
-│   ├── category.png
-│   ├── shipping_mode.png
-│   ├── shipping_duration.png
-│   └── slicers.png
+└── images/
+    ├── dashboard.gif
+    ├── dashboard.png
+    ├── power_query.png
+    ├── kpi_cards.png
+    ├── sales_trend.png
+    ├── map.png
+    ├── top_cities.png
+    ├── category.png
+    ├── shipping_mode.png
+    ├── shipping_duration.png
+    └── slicers.png
 ```
 
 ---
@@ -411,17 +506,6 @@ Furniture-Sales-Dashboard
 
 **Akram Hachrouf**
 
-Computer Science Graduate
+Data Analyst | Excel | Power Query | Data Visualization
 
-Aspiring Data Analyst passionate about turning raw data into interactive dashboards and business insights.
-
-## Connect with me
-
-- LinkedIn: *(Add your profile)*
-- GitHub: *(Add your profile)*
-
----
-
-# ⭐ Support
-
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+If you found this project useful, feel free to ⭐ this repository.
