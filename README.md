@@ -200,7 +200,7 @@ Allows decision-makers to evaluate business performance instantly and quickly id
 
 # 📈 Monthly Sales Trend
 
-<img width="446" height="223" alt="MOUNTH" src="https://github.com/user-attachments/assets/962f8712-6cf0-4012-976f-69ca7ff50d21" />
+<img width="600"  alt="MOUNTH" src="https://github.com/user-attachments/assets/962f8712-6cf0-4012-976f-69ca7ff50d21" />
 
 The Monthly Sales Trend visualizes how sales evolve throughout the year, making it easier to detect seasonal patterns and performance changes.
 
